@@ -20,8 +20,8 @@ public class JavaSendMail {
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 		properties.put("mail.smtp.port", "587");
 
-		String username = "mnmirockzz267@gmail.com";
-		String password = "saramowafica";
+		String username = "xxxxxxxxxx@gmail.com";
+		String password = "xxxxxxxxx";
 
 		Session session = Session.getInstance(properties, new Authenticator() {
 			@Override

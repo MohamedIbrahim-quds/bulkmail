@@ -13,16 +13,13 @@ public class Main {
 		Set<String> emails = get();
 		for(String string : emails) {
 	mailsender.sendmail(string);
-		//Iterator<String> iter= Data.iterator();		
-//	while (iter.hasNext()) {
-	//		String toEmail = iter.next();
-		//	mailSender.startProcess(toEmail);
 		}
 	}
 		
 		public static  Set<String>  get(){
 			Set<String> emails=new HashSet<>();
 			emails.add("mnmirockzz267@gmail.com");
+			email.add("haarisinfotech@gmail.com");
 			emails.add("aakreety07@hotmail.com");
 			emails.add("amyslax@hotmail.com");
 			emails.add("aniliuk@hotmail.com");
